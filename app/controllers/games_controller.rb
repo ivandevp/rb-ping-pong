@@ -1,4 +1,8 @@
 class GamesController < ApplicationController
+    def index
+        @games = Game.where(user_id: current_user.id)
+    end
+    
     def new
         @game = Game.new
         @opponents = User.opponents(current_user)
