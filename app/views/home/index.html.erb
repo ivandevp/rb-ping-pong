@@ -1,5 +1,20 @@
-<h1 class='page-header'>Leaderboard</h1>
+<h1 class="page-header">Leaderboard</h1>
 
-<div class="alert alert-warning" role="alert">This is a sample page.</div>
-
-<%= image_tag('leaderboard.png') %>
+<table class="table table-striped">
+  <thead>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Score</th>
+    <th>Games Played</th>
+  </thead>
+  <tbody>
+    <% @users.each_with_index do |user, index| %>
+        <tr>
+            <th><%= index + 1 %></th>
+            <td><%= user.name %></td>
+            <td><%= user.score %></td>
+            <td><%= User.games_played(user.id) %></td>
+        </tr>
+    <% end %> 
+  </tbody>
+</table>
