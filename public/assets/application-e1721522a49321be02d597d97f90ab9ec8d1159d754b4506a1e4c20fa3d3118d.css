@@ -1,0 +1,30 @@
+/* line 1, /Users/ivanmdevp/.rvm/gems/ruby-2.2.3/gems/devise-bootstrap-views-0.0.6/app/assets/stylesheets/devise_bootstrap_views.scss */
+.float-none {
+  float: none;
+}
+
+/* line 5, /Users/ivanmdevp/.rvm/gems/ruby-2.2.3/gems/devise-bootstrap-views-0.0.6/app/assets/stylesheets/devise_bootstrap_views.scss */
+.panel-heading {
+  padding: 15px;
+}
+/* line 7, /Users/ivanmdevp/.rvm/gems/ruby-2.2.3/gems/devise-bootstrap-views-0.0.6/app/assets/stylesheets/devise_bootstrap_views.scss */
+.panel-heading h4 {
+  margin: 0px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+ */
+
