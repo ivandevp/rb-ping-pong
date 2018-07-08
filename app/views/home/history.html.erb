@@ -1,0 +1,18 @@
+<h1 class="page-header">History</h1>
+
+<table class="table table-striped">
+  <thead>
+    <th>Date</th>
+    <th>Opponent</th>
+    <th>Score</th>
+    <th>Result</th>
+  </thead>
+  <tbody>
+    <% @games.each do |game| %>
+        <th><%= game.played_at %></th>
+        <td><%= game.opponent.name %></td>
+        <td><%= game.score %></td>
+        <td><%= game.result %></td>
+    <% end %> 
+  </tbody>
+</table>
