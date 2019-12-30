@@ -8,7 +8,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks',   '~> 2.5.3'
 
-gem 'devise',       '~> 3.5.2'
+gem 'devise',       '~> 4.7.1'
 gem 'devise-bootstrap-views', '~> 0.0.6'
 
 group :development, :test do
